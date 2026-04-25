@@ -1,0 +1,106 @@
+Running 2 processes.
+Start training small_toy_757.small_toy with seed 1.
+Any[]
+(2, 13)
+(2, 6)
+(2, 3)
+(2, 4)
+dimension: 2, class: 3
+cart cost: 2.7000000000000006
+size of X: (2, 9)
+ngroups: 2
+UB: 0.15000000000000002
+Iter	left	lev	LB	UB	gap	
+0      0      1          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 1 with d.
+1      1      2          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+2      0      2          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 2 with d.
+3      1      3          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 3 with d.
+4      2      4          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+5      1      4          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(1, 1) with a.
+6      2      5          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(1, 3) with a.
+7      3      6          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+8      2      6          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(1, 5) with c.
+9      3      7          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+10     2      7          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(1, 6) with c.
+11     3      8          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 1 with b.
+12     4      9          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(2, 6) with c.
+13     5      10         0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+14     4      10         0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+15     3      9          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+16     2      8          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+17     1      5          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+18     0      3          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 3 with d.
+19     1      4          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(1, 1) with a.
+20     2      5          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+21     1      5          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+22     0      4          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+all node solved
+solved nodes:  23
+23                                                    1.5000e-01     1.5000e-01     0.0000  % 
+2×3 Matrix{Float64}:
+ 0.0  0.0  0.0
+ 1.0  0.0  1.0
+3-element Vector{Float64}:
+ 0.317324306667922
+ 0.0
+ 0.7175671478529266
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.0  1.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  1.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  1.0
+3-element Vector{Float64}:
+ 1.0
+ 0.0
+ 1.0
+2×3 Matrix{Float64}:
+ 0.0  -0.0  0.0
+ 1.0   1.0  1.0
+3-element Vector{Float64}:
+ 0.34907881838308397
+ 0.297459871008258
+ 0.7202108117830381
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  1.0  0.0  -0.0  0.0
+ 0.0  0.0  0.0  0.0  0.0   1.0  0.0
+ 0.0  0.0  0.0  0.0  1.0   0.0  1.0
+3-element Vector{Float64}:
+ 1.0
+ 1.0
+ 1.0
+comparison (CRT and Glb)on prediction: Dict{Bool, Int64}(0 => 1, 1 => 3)
+Dataname	 time	 objv	 lb	 gap	 train_w	 train_g	 test_w	 test_g
+small_toy_757.small_toy	 57.5	 0.15000000000000002	 0.15	 0.0	 88.889	 100.0	 50.0	 50.0

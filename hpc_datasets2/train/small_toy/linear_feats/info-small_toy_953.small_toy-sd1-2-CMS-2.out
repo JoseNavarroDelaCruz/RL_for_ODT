@@ -1,0 +1,58 @@
+Running 2 processes.
+Start training /work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/small_toy/small_toy_953.small_toy with seed 1.
+Any[]
+(2, 13)
+(2, 6)
+(2, 3)
+(2, 4)
+dimension: 2, class: 3
+cart cost: 0.1
+size of X: (2, 9)
+Using method: Global linear DT optimization
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               1728000
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.14 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+2×3 Matrix{Float64}:
+ 1.0  0.0  0.0
+ 0.0  1.0  0.0
+3-element Vector{Float64}:
+ 0.655188386642257
+ 0.2882475439005723
+ 0.0
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  1.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  1.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  1.0
+3-element Vector{Float64}:
+ 1.0
+ 1.0
+ 0.0
+2×3 Matrix{Float64}:
+ 0.0       0.0       0.121373
+ 0.179104  0.179104  0.0
+3-element Vector{Float64}:
+ 0.1791044406150668
+ 0.1791044406150668
+ 0.12137274851958066
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.42922   0.42922   0.670101  0.154255
+ 0.0  0.0  0.0  0.298597  0.298597  0.169503  0.357476
+ 0.0  0.0  0.0  0.272183  0.272183  0.160396  0.488269
+3-element Vector{Float64}:
+ 0.1791044406150668
+ 0.1791044406150668
+ 0.12137274851958066
+a: [0.0 0.0 0.12137274851958066; 0.1791044406150668 0.1791044406150668 0.0]
+b: [0.1791044406150668, 0.1791044406150668, 0.12137274851958066]
+c: [0.0 0.0 0.0 0.429219988393147 0.4292199883931469 0.6701005719446 0.15425497370441943; 0.0 0.0 0.0 0.2985974055808083 0.2985974055808083 0.16950346358372204 0.3574755726422893; 0.0 0.0 0.0 0.2721826060260447 0.27218260602604477 0.16039596447167798 0.4882694536532913]
+d: [0.1791044406150668, 0.1791044406150668, 0.12137274851958066]
+comparison (CRT and Glb)on prediction: Dict{Bool, Int64}(0 => 4, 1 => 0)
+Dataname	 time	 objv	 lb	 gap	 train_w	 train_g	 test_w	 test_g
+/work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/small_toy/small_toy_953.small_toy	 27.97	 0.023979081487485718	 N/A	 N/A	 100.0	 0.0	 75.0	 0.0

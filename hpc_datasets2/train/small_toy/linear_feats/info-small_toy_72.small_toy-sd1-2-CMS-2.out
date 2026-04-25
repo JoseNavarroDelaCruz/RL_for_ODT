@@ -1,0 +1,59 @@
+Running 2 processes.
+Start training /work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/small_toy/small_toy_72.small_toy with seed 1.
+Any[]
+(2, 13)
+(2, 6)
+(2, 3)
+(2, 4)
+dimension: 2, class: 3
+cart cost: 2.7000000000000006
+size of X: (2, 9)
+Using method: Global linear DT optimization
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               1728000
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.14 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Iteration:    62   Dual objective     =             0.023484
+2×3 Matrix{Float64}:
+ 0.0  0.0  1.0
+ 1.0  0.0  0.0
+3-element Vector{Float64}:
+ 0.2749008358731181
+ 0.0
+ 0.5977435439885872
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.0  1.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  1.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  1.0
+3-element Vector{Float64}:
+ 1.0
+ 0.0
+ 1.0
+2×3 Matrix{Float64}:
+ 0.0       0.142107  0.0
+ 0.221642  0.0       0.117427
+3-element Vector{Float64}:
+ 0.2216418113221302
+ 0.14210661647379397
+ 0.11742670627555006
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.278045  0.427114  0.656481  0.151133
+ 0.0  0.0  0.0  0.232088  0.350597  0.185748  0.370049
+ 0.0  0.0  0.0  0.489867  0.222289  0.157771  0.478817
+3-element Vector{Float64}:
+ 0.2216418113221302
+ 0.14210661647379397
+ 0.11742670627555006
+a: [0.0 0.14210661647379397 0.0; 0.2216418113221302 0.0 0.11742670627555006]
+b: [0.2216418113221302, 0.14210661647379397, 0.11742670627555006]
+c: [0.0 0.0 0.0 0.27804547207278957 0.42711363818963505 0.6564814824912869 0.15113320322692458; 0.0 0.0 0.0 0.23208792952010437 0.3505970584955292 0.18574770510782102 0.3700494962065448; 0.0 0.0 0.0 0.489866598407106 0.22228930331483576 0.15777081240089208 0.4788173005665306]
+d: [0.2216418113221302, 0.14210661647379397, 0.11742670627555006]
+comparison (CRT and Glb)on prediction: Dict{Bool, Int64}(0 => 4, 1 => 0)
+Dataname	 time	 objv	 lb	 gap	 train_w	 train_g	 test_w	 test_g
+/work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/small_toy/small_toy_72.small_toy	 33.76	 0.024058756703573714	 N/A	 N/A	 88.889	 0.0	 50.0	 0.0

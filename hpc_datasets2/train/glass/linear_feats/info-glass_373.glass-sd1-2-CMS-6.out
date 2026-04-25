@@ -1,0 +1,95 @@
+Running 6 processes.
+Start training /work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/glass/glass_373.glass with seed 1.
+Any[]
+(9, 210)
+(9, 103)
+(9, 52)
+(9, 55)
+dimension: 9, class: 6
+cart cost: 146.86232876712327
+size of X: (9, 155)
+Using method: Global linear DT optimization
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               1728000
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.01 sec. (4.40 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Perturbation started.
+Iteration:    51   Dual objective     =             0.000000
+Iteration:   242   Dual objective     =             0.000044
+Iteration:   363   Dual objective     =             0.009821
+Iteration:   492   Dual objective     =             0.020566
+Iteration:   625   Dual objective     =             0.024778
+Iteration:   752   Dual objective     =             0.037868
+Iteration:   891   Dual objective     =             0.050428
+Iteration:  1018   Dual objective     =             0.773351
+Iteration:  1178   Dual objective     =             2.213305
+Iteration:  1294   Dual objective     =             2.876787
+Iteration:  1409   Dual objective     =             2.915057
+Iteration:  1524   Dual objective     =             4.372856
+Iteration:  1669   Dual objective     =             8.163525
+Iteration:  1798   Dual objective     =            10.081145
+Iteration:  1917   Dual objective     =            10.808872
+Removing perturbation.
+9×3 Matrix{Float64}:
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0
+ 1.0  0.0  0.0
+ 0.0  0.0  1.0
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0
+ 0.0  1.0  0.0
+ 0.0  0.0  0.0
+3-element Vector{Float64}:
+ 0.6012569371461829
+ 0.14633097775225196
+ 0.3689311660995478
+6×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.0  0.0  1.0  0.0
+ 0.0  0.0  0.0  1.0  0.0  0.0  1.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  1.0  0.0  0.0
+3-element Vector{Float64}:
+ 1.0
+ 1.0
+ 1.0
+9×3 Matrix{Float64}:
+ 0.0        0.0        0.0
+ 0.0        0.0        0.0
+ 0.0        0.0        0.0
+ 0.0        0.0        0.0
+ 0.0        0.0        0.0
+ 0.0342509  0.0342509  0.0342509
+ 0.0118152  0.0118152  0.0118152
+ 0.098957   0.098957   0.098957
+ 0.0        0.0        0.0
+3-element Vector{Float64}:
+ 0.14502312189961997
+ 0.14502312189962002
+ 0.14502312189961997
+6×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.261401  0.261401  0.261401  0.215797
+ 0.0  0.0  0.0  0.270956  0.270956  0.270956  0.187131
+ 0.0  0.0  0.0  0.27699   0.27699   0.27699   0.16903
+ 0.0  0.0  0.0  0.0       0.0       0.0       0.0
+ 0.0  0.0  0.0  0.0       0.0       0.0       0.0
+ 0.0  0.0  0.0  0.190652  0.190652  0.190652  0.428043
+3-element Vector{Float64}:
+ 0.14502312189961997
+ 0.14502312189962002
+ 0.14502312189961997
+a: [0.0 0.0 0.0; 0.0 0.0 0.0; 0.0 0.0 0.0; 0.0 0.0 0.0; 0.0 0.0 0.0; 0.03425089665113357 0.034250896651133456 0.03425089665113329; 0.011815210721809983 0.011815210721810132 0.011815210721816127; 0.09895701452667628 0.09895701452667643 0.09895701452667055; 0.0 0.0 0.0]
+b: [0.14502312189961997, 0.14502312189962002, 0.14502312189961997]
+c: [0.0 0.0 0.0 0.2614011033776236 0.2614011033776247 0.2614011033776239 0.2157966898671268; 0.0 0.0 0.0 0.27095644165093086 0.27095644165092964 0.27095644165092614 0.18713067504721304; 0.0 0.0 0.0 0.27699012256936684 0.2769901225693676 0.27699012256936684 0.1690296322918997; 0.0 0.0 0.0 0.0 0.0 0.0 0.0; 0.0 0.0 0.0 0.0 0.0 0.0 0.0; 0.0 0.0 0.0 0.1906523324020779 0.19065233240207818 0.1906523324020831 0.42804300279376045]
+d: [0.14502312189961997, 0.14502312189962002, 0.14502312189961997]
+comparison (CRT and Glb)on prediction: Dict{Bool, Int64}(0 => 55, 1 => 0)
+Dataname	 time	 objv	 lb	 gap	 train_w	 train_g	 test_w	 test_g
+/work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/glass/glass_373.glass	 27.42	 10.809424701161607	 N/A	 N/A	 67.097	 0.0	 52.727	 0.0

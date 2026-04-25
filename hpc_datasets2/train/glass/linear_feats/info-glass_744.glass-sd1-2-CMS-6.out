@@ -1,0 +1,97 @@
+Running 6 processes.
+Start training /work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/glass/glass_744.glass with seed 1.
+Any[]
+(9, 210)
+(9, 104)
+(9, 52)
+(9, 54)
+dimension: 9, class: 6
+cart cost: 147.71756756756758
+size of X: (9, 156)
+Using method: Global linear DT optimization
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               1728000
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.01 sec. (4.29 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Perturbation started.
+Iteration:    51   Dual objective     =             0.000000
+Iteration:   197   Dual objective     =             0.000031
+Iteration:   337   Dual objective     =             0.006952
+Iteration:   474   Dual objective     =             0.021115
+Iteration:   598   Dual objective     =             0.022945
+Iteration:   737   Dual objective     =             0.037014
+Iteration:   886   Dual objective     =             0.069746
+Iteration:  1029   Dual objective     =             1.923075
+Iteration:  1159   Dual objective     =             3.608258
+Iteration:  1283   Dual objective     =             5.800842
+Iteration:  1411   Dual objective     =             7.843573
+Iteration:  1559   Dual objective     =             9.971211
+Iteration:  1728   Dual objective     =            10.656105
+Iteration:  1862   Dual objective     =            10.664173
+Iteration:  2008   Dual objective     =            10.664525
+Removing perturbation.
+Iteration:  2013   Scaled dual infeas =             0.000028
+Iteration:  2016   Dual objective     =            10.664454
+9×3 Matrix{Float64}:
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0
+ 1.0  0.0  0.0
+ 0.0  0.0  1.0
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0
+ 0.0  1.0  0.0
+ 0.0  0.0  0.0
+3-element Vector{Float64}:
+ 0.6217304124544174
+ 0.15427869695509414
+ 0.36154072836089235
+6×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.0  0.0  1.0  0.0
+ 0.0  0.0  0.0  1.0  0.0  0.0  1.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  1.0  0.0  0.0
+3-element Vector{Float64}:
+ 1.0
+ 1.0
+ 1.0
+9×3 Matrix{Float64}:
+ 0.0          0.0          0.0
+ 0.0          0.0          0.0
+ 0.022291     0.022291     0.022291
+ 0.0          0.0          0.0
+ 0.0158521    0.0158521    0.0158521
+ 0.0411744    0.0411744    0.0411744
+ 0.0453622    0.0453622    0.0453622
+ 0.0252986    0.0252986    0.0252986
+ 0.000545234  0.000545234  0.000545234
+3-element Vector{Float64}:
+ 0.150523577446712
+ 0.150523577446712
+ 0.15052357744671196
+6×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.252947  0.252947  0.252947  0.24116
+ 0.0  0.0  0.0  0.236393  0.236393  0.236393  0.290821
+ 0.0  0.0  0.0  0.256138  0.256138  0.256138  0.231587
+ 0.0  0.0  0.0  0.0       0.0       0.0       0.0
+ 0.0  0.0  0.0  0.0       0.0       0.0       0.0
+ 0.0  0.0  0.0  0.254523  0.254523  0.254523  0.236432
+3-element Vector{Float64}:
+ 0.150523577446712
+ 0.150523577446712
+ 0.15052357744671196
+a: [0.0 0.0 0.0; 0.0 0.0 0.0; 0.022291036829037707 0.022291036829037728 0.02229103682903772; 0.0 0.0 0.0; 0.015852115728427776 0.015852115728427735 0.01585211572842775; 0.04117437030070069 0.041174370300700674 0.041174370300700765; 0.04536222139150496 0.04536222139150495 0.0453622213915051; 0.025298599298092403 0.025298599298092368 0.025298599298092403; 0.0005452338989484634 0.0005452338989485159 0.0005452338989482236]
+b: [0.150523577446712, 0.150523577446712, 0.15052357744671196]
+c: [0.0 0.0 0.0 0.25294664581488585 0.25294664581488574 0.2529466458148859 0.2411600625553424; 0.0 0.0 0.0 0.2363929981857636 0.23639299818576356 0.23639299818576354 0.2908210054427094; 0.0 0.0 0.0 0.25613780028065103 0.2561378002806513 0.25613780028065103 0.23158659915804672; 0.0 0.0 0.0 0.0 0.0 0.0 0.0; 0.0 0.0 0.0 0.0 0.0 0.0 0.0; 0.0 0.0 0.0 0.25452255571869953 0.2545225557186995 0.25452255571869953 0.23643233284390153]
+d: [0.150523577446712, 0.150523577446712, 0.15052357744671196]
+comparison (CRT and Glb)on prediction: Dict{Bool, Int64}(0 => 54, 1 => 0)
+Dataname	 time	 objv	 lb	 gap	 train_w	 train_g	 test_w	 test_g
+/work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/glass/glass_744.glass	 30.55	 10.664470428508892	 N/A	 N/A	 66.667	 0.0	 53.704	 0.0

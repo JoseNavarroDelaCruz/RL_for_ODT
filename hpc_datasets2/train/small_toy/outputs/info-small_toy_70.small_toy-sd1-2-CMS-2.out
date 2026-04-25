@@ -1,0 +1,116 @@
+Running 2 processes.
+Start training small_toy_70.small_toy with seed 1.
+Any[]
+(2, 13)
+(2, 6)
+(2, 3)
+(2, 4)
+dimension: 2, class: 3
+cart cost: 0.15000000000000002
+size of X: (2, 9)
+ngroups: 2
+UB: 0.15000000000000002
+Iter	left	lev	LB	UB	gap	
+0      0      1          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 1 with d.
+1      1      2          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+2      0      2          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 2 with d.
+3      1      3          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 3 with d.
+4      2      3          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 3 with d.
+5      3      4          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(1, 1) with a.
+6      4      5          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(1, 2) with a.
+7      5      5          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+8      4      4          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+9      3      4          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+10     2      4          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(1, 1) with a.
+11     3      5          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 1 with b.
+12     4      6          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(1, 3) with a.
+13     5      7          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 1 with b.
+14     6      7          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+15     5      6          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+16     4      5          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+17     3      8          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+18     2      8          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 3 with b.
+19     3      9          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+20     2      9          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+21     1      6          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on CartesianIndex(1, 4) with c.
+22     2      7          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+23     1      7          0.1000     0.1500     50.0000    % 
+UB: 0.15000000000000002
+branching on 1 with b.
+24     2      8          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+25     1      8          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+26     0      6          0.1000     0.1500     50.0000    % 
+LB close or above UB, fathomed
+all node solved
+solved nodes:  27
+27                                                    1.5000e-01     1.5000e-01     0.0000  % 
+2×3 Matrix{Float64}:
+ 1.0  0.0  0.0
+ 0.0  1.0  1.0
+3-element Vector{Float64}:
+ 0.6721580548926664
+ 0.47563233441034913
+ 0.41421776490987283
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  1.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  1.0  1.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  1.0
+3-element Vector{Float64}:
+ 1.0
+ 1.0
+ 1.0
+2×3 Matrix{Float64}:
+ 1.0  0.0  0.0
+ 0.0  1.0  1.0
+3-element Vector{Float64}:
+ 0.6721580548926664
+ 0.47563233441034913
+ 0.41421776490987283
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  1.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  1.0  1.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  1.0
+3-element Vector{Float64}:
+ 1.0
+ 1.0
+ 1.0
+comparison (CRT and Glb)on prediction: Dict{Bool, Int64}(0 => 0, 1 => 4)
+Dataname	 time	 objv	 lb	 gap	 train_w	 train_g	 test_w	 test_g
+small_toy_70.small_toy	 56.08	 0.15000000000000002	 0.15	 0.0	 100.0	 100.0	 50.0	 50.0

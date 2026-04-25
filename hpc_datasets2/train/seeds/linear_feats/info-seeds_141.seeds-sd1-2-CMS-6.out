@@ -1,0 +1,83 @@
+Running 6 processes.
+Start training /work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/seeds/seeds_141.seeds with seed 1.
+Any[]
+(7, 206)
+(7, 102)
+(7, 51)
+(7, 53)
+dimension: 7, class: 3
+cart cost: 50.90362318840582
+size of X: (7, 153)
+Using method: Global linear DT optimization
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               72000
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.01 sec. (3.39 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Perturbation started.
+Iteration:    51   Dual objective     =             0.000000
+Iteration:   190   Dual objective     =             0.000028
+Iteration:   340   Dual objective     =             0.000059
+Iteration:   465   Dual objective     =             0.006218
+Iteration:   610   Dual objective     =             0.012688
+Iteration:   744   Dual objective     =             0.017430
+Iteration:   892   Dual objective     =             0.022622
+Iteration:  1001   Dual objective     =             0.023154
+Iteration:  1099   Dual objective     =             0.023186
+Iteration:  1208   Dual objective     =             0.023783
+Iteration:  1316   Dual objective     =             0.023828
+Iteration:  1424   Dual objective     =             0.023910
+Iteration:  1530   Dual objective     =             0.023910
+Removing perturbation.
+7×3 Matrix{Float64}:
+ 0.0  1.0  0.0
+ 0.0  0.0  1.0
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0
+ 1.0  0.0  0.0
+3-element Vector{Float64}:
+ 0.5200137763842441
+ 0.27948932261984893
+ 0.6477479113482387
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.0  1.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  1.0  1.0
+ 0.0  0.0  0.0  1.0  0.0  0.0  0.0
+3-element Vector{Float64}:
+ 1.0
+ 1.0
+ 1.0
+7×3 Matrix{Float64}:
+ 0.0460265  0.0460265  0.0
+ 0.0        0.0        0.0
+ 0.0339223  0.0339223  0.00622046
+ 0.0825938  0.0825938  0.00729423
+ 0.0        0.0        0.0
+ 0.0475859  0.0475859  0.0437849
+ 0.0        0.0        0.0
+3-element Vector{Float64}:
+ 0.21012847980833632
+ 0.21012847980833627
+ 0.05729955491917585
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.345033  0.356112  0.812967   0.278154
+ 0.0  0.0  0.0  0.300993  0.280864  0.0997538  0.439226
+ 0.0  0.0  0.0  0.353973  0.363023  0.0872797  0.28262
+3-element Vector{Float64}:
+ 0.21012847980833632
+ 0.21012847980833627
+ 0.05729955491917585
+a: [0.04602646289186297 0.046026462891862525 0.0; 0.0 0.0 0.0; 0.03392228748655857 0.033922287486558365 0.006220460512768276; 0.08259379965906272 0.08259379965906295 0.00729422949641239; 0.0 0.0 0.0; 0.047585929770852076 0.04758592977085235 0.04378486490999545; 0.0 0.0 0.0]
+b: [0.21012847980833632, 0.21012847980833627, 0.05729955491917585]
+c: [0.0 0.0 0.0 0.34503322676825177 0.35611241929991044 0.8129665005191045 0.2781540616981586; 0.0 0.0 0.0 0.30099327827293054 0.2808642092214612 0.09975380390032007 0.43922622143409296; 0.0 0.0 0.0 0.3539734949588177 0.3630233714786283 0.08727969558057547 0.2826197168677485]
+d: [0.21012847980833632, 0.21012847980833627, 0.05729955491917585]
+comparison (CRT and Glb)on prediction: Dict{Bool, Int64}(0 => 53, 1 => 0)
+Dataname	 time	 objv	 lb	 gap	 train_w	 train_g	 test_w	 test_g
+/work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/seeds/seeds_141.seeds	 28.97	 0.023877825726792423	 N/A	 N/A	 88.889	 0.0	 94.34	 0.0

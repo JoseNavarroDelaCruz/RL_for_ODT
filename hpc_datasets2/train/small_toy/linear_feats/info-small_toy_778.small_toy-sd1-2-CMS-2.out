@@ -1,0 +1,59 @@
+Running 2 processes.
+Start training /work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/small_toy/small_toy_778.small_toy with seed 1.
+Any[]
+(2, 13)
+(2, 6)
+(2, 3)
+(2, 4)
+dimension: 2, class: 3
+cart cost: 2.7000000000000006
+size of X: (2, 9)
+Using method: Global linear DT optimization
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Threads                                 1
+CPXPARAM_TimeLimit                               1728000
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.14 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+Iteration:    62   Dual objective     =             0.023854
+2×3 Matrix{Float64}:
+ 1.0  0.0  0.0
+ 0.0  1.0  0.0
+3-element Vector{Float64}:
+ 0.6750942739335744
+ 0.2853797589972749
+ 0.0
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  1.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  1.0  0.0  0.0
+ 0.0  0.0  0.0  0.0  0.0  0.0  1.0
+3-element Vector{Float64}:
+ 1.0
+ 1.0
+ 0.0
+2×3 Matrix{Float64}:
+ 0.0       0.0        0.197147
+ 0.197147  0.0827836  0.0
+3-element Vector{Float64}:
+ 0.19714654256674016
+ 0.08278363804131113
+ 0.19714654256674016
+3×7 Matrix{Float64}:
+ 0.0  0.0  0.0  0.742581  0.43074   0.460747  0.173032
+ 0.0  0.0  0.0  0.129456  0.308295  0.287799  0.356966
+ 0.0  0.0  0.0  0.127963  0.260965  0.251453  0.470001
+3-element Vector{Float64}:
+ 0.19714654256674016
+ 0.08278363804131113
+ 0.19714654256674016
+a: [0.0 0.0 0.19714654256674016; 0.19714654256674016 0.08278363804131113 0.0]
+b: [0.19714654256674016, 0.08278363804131113, 0.19714654256674016]
+c: [0.0 0.0 0.0 0.7425813275605369 0.43074022095908077 0.46074746289936613 0.17303231428095056; 0.0 0.0 0.0 0.12945578873640395 0.30829475206074414 0.28779929876171156 0.35696630368938875; 0.0 0.0 0.0 0.1279628837030592 0.26096502698017504 0.25145323833892236 0.47000138202966063]
+d: [0.19714654256674016, 0.08278363804131113, 0.19714654256674016]
+comparison (CRT and Glb)on prediction: Dict{Bool, Int64}(0 => 3, 1 => 1)
+Dataname	 time	 objv	 lb	 gap	 train_w	 train_g	 test_w	 test_g
+/work_bgfs/n/navarrodelacruz/odt/optimal_decision_tree/augmented_datasets/small_toy/small_toy_778.small_toy	 34.17	 0.023853836158739566	 N/A	 N/A	 88.889	 33.333	 75.0	 50.0
