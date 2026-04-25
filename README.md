@@ -21,8 +21,8 @@ PPO and GRPO, evaluated on three classification datasets: `small_toy`,
 ├── two_stage_gps_small.py   # Dual GPS model architecture
 ├── ppo_utils.py             # Shared PPO utilities
 ├── config_train_pytorch2.py # Training configuration
-├── run_ppo_small.sh         # SLURM job script for PPO (see below)
-└── run_grpo_small.sh        # SLURM job script for GRPO
+├── run_ppo.sh               # SLURM job script for PPO (see below)
+└── run_grpo.sh              # SLURM job script for GRPO
 ```
 
 ## Hardware Requirements
@@ -38,22 +38,22 @@ cores.
 Submit the PPO job using the provided bash script:
 
 ```bash
-sbatch run_ppo_small.sh
+sbatch run_ppo.sh
 ```
 
-The script (`run_ppo_small.sh`) handles environment activation, logging,
+The script (`run_ppo.sh`) handles environment activation, logging,
 and SLURM resource allocation. Key parameters can be overridden at
 submission time:
 
 ```bash
 # Change dataset
-DATASETS="seeds" sbatch run_ppo_small.sh
+DATASETS="seeds" sbatch run_ppo.sh
 
 # Change number of training instances
-NUM_FILES=500 sbatch run_ppo_small.sh
+NUM_FILES=500 sbatch run_ppo.sh
 
 # Change random seed
-SEED=123 sbatch run_ppo_small.sh
+SEED=123 sbatch run_ppo.sh
 ```
 
 > **Note:** `BATCH_SIZE` is fixed at 1 for PPO. Each rollout samples
@@ -61,7 +61,7 @@ SEED=123 sbatch run_ppo_small.sh
 > within that group. Larger batch sizes would mix instances and break
 > per-instance advantage normalisation.
 
-Default SLURM configuration in `run_ppo_small.sh`:
+Default SLURM configuration in `run_ppo.sh`:
 
 | Resource | Value |
 |---|---|
